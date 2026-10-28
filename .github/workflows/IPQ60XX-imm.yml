@@ -23,6 +23,7 @@ jobs:
       firmware_tag: IPQ60XX-imm-nowifi
       kernel_file: kernel-6.18
       artifact_prefix: IPQ60XX-nowifi-imm
-      manifest_file: imm-qualcommax-ipq60xx.manifest
+      manifest_file: immortalwrt-qualcommax-ipq60xx.manifest
+	  rename_qualcommax_to_nowifi: true
       release_summary: >-
         这是开启全功能NSS的6.12内核固件，默认主题为Aurora；该固件在ImmortalWrt的基础上，nowifi 具体详见IPQ60XX.config和General.config。
